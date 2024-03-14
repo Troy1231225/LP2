@@ -11,7 +11,7 @@ const showComments = () => {
 	coms.forEach((el, i) => {
 		setTimeout(function() {
 			let date = new Date();
-			el.querySelector('.comments-time').textContent = 'Сегодня ' + date.getHours() + ':' + date.getMinutes()
+			el.querySelector('.comments-time').textContent = 'Hoje ' + date.getHours() + ':' + date.getMinutes()
 			el.classList.add('isvisible') 
 		}, i * 4000);
 	})
